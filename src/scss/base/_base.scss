@@ -1,0 +1,13 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:900);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-color);
+  font-family: var(--font-main);
+}

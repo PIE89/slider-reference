@@ -1,0 +1,23 @@
+.see-more {
+  position: relative;
+  padding-left: 60px;
+  display: block;
+
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.1em;
+
+  transform: rotate(-90deg) translate(0, 100%);
+  transform-origin: left bottom;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: calc(50% - 1.5px);
+    height: 3px;
+    width: 38px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
